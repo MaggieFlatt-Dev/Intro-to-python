@@ -9,8 +9,9 @@ Learning Objective: understanding and implementing lists, dictionaries, sets, tu
 * todos.py
 * my_movies.py
 * planets.py
+* Challenge: added to planets.py
 
 ## Dictionaries 
 * phonebook.py
 * gradebook.py
-* Challenge: stocks.py
+* Challenge: added to gradebook.py 
