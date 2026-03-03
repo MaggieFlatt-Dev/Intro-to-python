@@ -63,3 +63,35 @@ print()
 
 # Display all students
 display_students()
+print()
+
+
+# CHALLENGE:
+# Find a Student's Grade: Write a function find_grade(name) that checks if a student is in the dictionary and prints their grade if found, or a message if the student was not found.
+def find_grade(name):
+    if name in student_grades:
+        grade = student_grades[name]
+        print(f"Grade: {grade}")
+    else:
+        print("Student not found")
+
+
+# Calculate Average Grade: Write a function average_grade() that calculates and prints the average grade of all students in the dictionary.
+def average_grade():
+    total = 0 # grade count
+    count = 0 # student count
+    for name in student_grades:
+        grade = student_grades[name]
+        total += grade
+        count += 1
+
+    if count > 0:
+        average = total / count
+        print(f"Average grade: {average}")
+
+
+# Find students grade
+find_grade("Dakota")
+
+# Find average grade
+average_grade()

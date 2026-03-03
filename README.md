@@ -11,3 +11,6 @@ Learning Objective: understanding and implementing lists, dictionaries, sets, tu
 * planets.py
 
 ## Dictionaries 
+* phonebook.py
+* gradebook.py
+* Challenge: stocks.py
