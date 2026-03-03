@@ -1,10 +1,13 @@
-# python-lists
+# Intro to Python
 
-Initial lesson in python week of 3/2/26 
+Initial lessons in python week of 3/2/26-3/13/26
 
-Learning Obj: understanding and implementing lists in Python 
+Learning Objective: understanding and implementing lists, dictionaries, sets, tuples, and exceptions  in Python 
 
 # Exercise Modules
+## Lists
 todos.py
 my_movies.py
 planets.py
+
+## Dictionaries 
