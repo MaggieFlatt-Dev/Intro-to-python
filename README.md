@@ -19,3 +19,7 @@ Learning Objective: understanding and implementing lists, dictionaries, sets, tu
 ## Sets
 * word_analysis.py
 * email_list.py
+
+## Tuples
+* library_catalog.py
+* movie_collection.py
