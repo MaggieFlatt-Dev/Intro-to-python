@@ -15,3 +15,7 @@ Learning Objective: understanding and implementing lists, dictionaries, sets, tu
 * phonebook.py
 * gradebook.py
 * Challenge: added to gradebook.py 
+
+## Sets
+* word_analysis.py
+* email_list.py
