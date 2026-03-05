@@ -24,3 +24,7 @@ Learning Objective: understanding and implementing lists, dictionaries, sets, tu
 * library_catalog.py
 * movie_collection.py
 * Challenge: added to movie_collection.py
+
+## Exceptions 
+* exceptions.py
+* shopping_cart.py 
