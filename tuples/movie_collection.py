@@ -32,6 +32,7 @@ def search_by_director(director):
 # Add movies
 add_movie("Beauty & The Beast", ["Gary Trousdale", "Kirk Wise"], 1991 )
 add_movie("Pride & Prejudice", ["Joe Wright"], 2005)
+add_movie("Sinners", ["Ryan Coogler"], 2025)
 print("-----")
 
 # Display Movies
@@ -43,3 +44,37 @@ movies_by_hamburg = search_by_director("John Hamburg")
 print("Movies Directed by Hamburg:")
 for title, director, year in movies_by_hamburg:
     print(f"Title: {title}, Year: {year}")
+    print("-----")
+
+
+# CHALLENGE 
+
+# 1. Remove a Movie from the Collection 
+def remove_movie(title):
+  for movie in movie_collection:
+    title_check, director, year = movie
+    if title_check.lower() == title.lower():
+      movie_collection.remove(movie)
+      print(f"{title} has been removed from movie collection.\n") 
+      return
+  print(f"{title} was not found in collection")
+
+
+# 2. Update Movie Information 
+def update_movie(title, director, year):
+  remove_movie(title)
+  add_movie(title, director, year)
+  print(f"{title} has been updated")
+
+# 3. Sort Movies by Release Year
+
+
+# Remove Movie from Collection
+remove_movie("Beauty & The Beast")
+display_movies()
+print("-----")
+
+# Update Movie
+update_movie("The Mummy", ["Alex Kurtzman"], 2017)
+print()
+display_movies()
