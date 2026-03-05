@@ -1,6 +1,6 @@
 # Intro to Python
 
-Initial lessons in python weeks of 3/2/26-3/13/26
+Initial lessons in python week of 3/2/26
 
 Learning Objective: understanding and implementing lists, dictionaries, sets, tuples, and exceptions in Python 
 
